@@ -5,7 +5,7 @@ Allows you to calculate your fuel consumption and how much you are going to spen
 
 Feel free to test [Fuel](http://www.danyfuel.tk/)
 
-<p style="font-size:10px;">Look forward to further update</p>
+##### Look forward to further update
 
 ## License
 
