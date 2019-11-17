@@ -1,0 +1,70 @@
+#mySidebar {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0px;
+    background-color: rgb(44, 40, 40);
+    overflow-x: hidden;
+    transition: 0.5s;
+}
+
+#mySidebar a {
+    padding: 0px 8px 8px 32px;
+    text-decoration: none;
+    color: white;
+    transition: 0.3s;
+    display: block;
+}
+
+button {
+    float: left;
+    color: yellowgreen;
+    background: rgb(72, 73, 73);
+    border-color: white;
+}
+
+fieldset {
+    background-color: papayawhip;
+    border: 3px solid rgb(72, 73, 73);
+    border-radius: 6px;
+    margin-bottom: 25px;
+}
+
+legend {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+    color : rgb(158, 34, 34);
+    text-shadow: -2px -2px 1px rgb(255, 255, 255);     
+}
+
+#print {
+    display: none;
+}
+
+h1 {
+    text-align: center;
+    color: rgb(158, 34, 34);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-shadow: -2px -2px 1px rgb(255, 255, 255);
+}
+
+footer a {
+	color: rgb(45, 45, 201);
+	background-color: rgb(218, 238, 245); 
+	font-weight: bold;
+    padding: 4px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+footer {
+    opacity: 0.7;
+    position: fixed;
+    bottom: 2px;;
+    width: auto;
+    left: 1%;
+    cursor: pointer;
+    display: block;
+}

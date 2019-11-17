@@ -1,0 +1,81 @@
+body {
+    background: url("https://res.cloudinary.com/dkkqrrrbb/image/upload/v1560520676/car_beach_eumqpw.jpg") no-repeat center center fixed;   
+}
+
+#openbtn {   
+    top: 25px;
+    margin-left: 20px;
+    font-size: 20px;
+    cursor: pointer;
+    background-color: wheat;
+    border: 3px solid rgb(72, 73, 73);
+    border-radius: 6px;
+    color: rgb(148, 18, 18);
+    padding: 10px 15px;
+}
+
+#mySidebar #closebtn {
+    margin-top: -50px;
+    font-size: 36px;
+    text-align: right;
+    cursor: pointer;
+    margin-right: 25px;
+}
+
+input {
+    width: 90%;
+}
+
+select {
+    width: 92%;
+}
+
+form {
+    width: 600px;
+    margin: auto;
+}
+
+td:first-child {
+    width: 50%;
+    text-align: right;
+}
+
+table {
+    width: 580px;
+}
+
+fieldset {
+    width: 600px;
+}
+
+#mySidebar {
+    padding-top: 60px;
+}
+
+#mySidebar a {
+    font-size: 25px;
+}
+
+h1 {
+    font-size: 300%;
+}
+
+button {
+    font-weight: bold;
+    font-size: 100%;
+}
+
+legend {
+
+    font-size: 120%;
+}
+
+p {
+    display: inline;
+    padding: 5px;
+    font-size: 82%;
+}
+
+h3 {
+    margin: 7px;
+}

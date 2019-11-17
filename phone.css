@@ -1,0 +1,94 @@
+body {
+    background: url("https://res.cloudinary.com/dkkqrrrbb/image/upload/v1557393701/net_xsosbt.jpg") no-repeat center center fixed;
+    background-color: rgb(2, 2, 32);
+    background-size: 110%;
+}
+
+#openbtn {   
+    top: 25px;
+    margin-left: 10px;
+    font-size: 20px;
+    cursor: pointer;
+    background-color: wheat;
+    border: 3px solid rgb(72, 73, 73);
+    border-radius: 6px;
+    color: rgb(148, 18, 18);
+}
+
+#mySidebar #closebtn {
+    margin-top: -10px;
+    font-size: 25px;
+    text-align: right;
+    cursor: pointer;
+    margin-right: 15px;
+}
+
+input {
+    width: 97%;
+    font-size: 70%;
+}
+
+select {
+    width: 100%;
+    font-size: 70%;
+}
+
+form {
+    width: 280px;
+}
+
+legend {
+    font-size: 120%;
+}
+
+td:first-child {
+    width: 55%;
+    text-align: right;
+    font-size: 70%;
+}
+
+table {
+    width: 290px;
+}
+
+fieldset {
+    margin-top: -15px;
+    width: 300px;
+}
+
+#mySidebar {
+    padding-top: 15px;
+}
+
+#mySidebar a {
+    font-size: 15px;
+}
+
+#mySidebar a:not(:first-child) {
+    margin-left: -20px;
+}
+
+h1 {
+    font-size: 200%;
+}
+
+button {
+    padding-bottom: 0px;
+    margin: 2px;
+    font-size: 80%;
+}
+
+p {
+    display: inline;
+    padding: 5px;
+    font-size: 70%;
+}
+
+h3 {
+    margin: 7px;
+    font-size: 80%;
+}
+
+footer a {
+    font-size: 75%;
+}

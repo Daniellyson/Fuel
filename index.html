@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>  
+    <head>  
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, height=device-height" />
+        <title> Fuel </title>
+        <link rel="stylesheet" type="text/css" media="screen and (max-width: 600px)" href="phone.css">
+        <link rel="stylesheet" type="text/css" media="screen and (min-width: 601px)" href="desktop.css">
+        <link rel="stylesheet" type="text/css" href="common.css">
+        <script type="text/javascript" src="fuel.js" rel="script"></script>
+    </head>
+    <body>    
+        <div id="mySidebar">
+            <a id="closebtn" onclick="closeNav()">x</a>
+            <a href="https://carbu.com/belgique/meilleurs-prix/Belgique/BE/0" target="_blank">Compare fuel</a>
+        </div>
+
+        <button id="openbtn" onclick="openNav()">☰</button>
+
+        <h1>Fuel</h1>
+    
+        <form>
+            <fieldset>
+                <legend>Car data</legend>
+                <table>
+                    <tr>
+                        <td><strong>Cars:</strong></td>
+                        <td>
+                            <select id="cars" name="cars" onchange="getCar()">
+                                <option selected="selected" value="6">Saxo</option>
+                                <option value="5">Skoda</option>
+                                <option value="7">BMW</option>
+                                <option value="9">Van Vivaro</option>
+                                <option value="1">Another Car</option>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><strong>Liter/100km:</strong></td>
+                        <td><input id="display" name="display" min="1" placeholder="Set the car's range (Ex: 5.5)"/></td>       
+                    </tr>
+                    <tr>
+                        <td><strong>How many people:</strong></td>
+                        <td><input type="number" min="1" name="people" id="people" placeholder="One by default"/></td>       
+                    </tr>                    
+                    <tr>
+                        <td><strong>How many km round-trip from home:</strong></td>
+                        <td><input type="number" min="0" step="any" name="kmHome" id="kmHome" placeholder="required" required/></td>       
+                    </tr>
+                    <tr>
+                        <td><strong>Fuel price:</strong></td>
+                        <td><input class="inputRequired" type="number" min=0 step="any" name="fuel" id="fuel" placeholder="required" required/></td>       
+                    </tr>
+                    <tr>
+                        <td><strong>How many km round-trip payed by the office:</strong></td>
+                        <td><input type="number" min="0" step="any" name="kmOffice" id="kmOffice" placeholder="Company field(Optional)"/></td>       
+                    </tr>
+                    <tr>
+                        <td><strong>How much per km the office pays:</strong></td>
+                        <td><input type="number" min="0" step="any" name="kmPayedOffice" id="kmPayedOffice" placeholder="0.2 by default(Optional)"/></td>       
+                    </tr>
+                </table>
+                <button type="button" onclick="getKm()">Calculate</button>
+                <p><strong>Note: </strong>Use dot(.) instead of comma(,) for the real numbers</p>
+            </fieldset> 
+            <fieldset id="print">
+                <h3 id="totalFuelLitters"></h3>
+                <h3 id="totalFuel"></h3>
+                <h3 id="grossProfit"></h3>
+                <h3 id="netProfit"></h3>
+                <h3 id="perPerson"></h3>
+            </fieldset>
+        </form>
+        <footer>
+			<a href="https://www.linkedin.com/in/daniellyson-vasconcelos" target="_blank">Daniellyson©</a>
+		</footer>
+    </body>
+</html>
