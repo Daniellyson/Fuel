@@ -3,7 +3,7 @@
 
 Allows you to calculate your fuel consumption and how much you are going to spend.
 
-[Fuel](https://fuel-dany.herokuapp.com/)
+Try [Fuel](https://fuel-dany.herokuapp.com/)
 
 ###### Look forward to further update
 
