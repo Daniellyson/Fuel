@@ -2,6 +2,14 @@ body {
     background: url("https://res.cloudinary.com/dkkqrrrbb/image/upload/v1560520676/car_beach_eumqpw.jpg") no-repeat center center fixed;   
 }
 
+
+.fa.fa-backward {
+    margin-right: 60px;
+    font-size: 200%;   
+    padding: 10px;
+    padding-right: 15px;
+}
+
 #openbtn {   
     top: 25px;
     margin-left: 20px;

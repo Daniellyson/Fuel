@@ -98,6 +98,10 @@ function getKm() {
     }  
 }
 
+function back() {
+    return window.history.back();
+}
+
 function openNav() {
     if(window.matchMedia("(min-width: 601px)").matches) {
         document.getElementById("mySidebar").style.width = "250px";

@@ -4,6 +4,13 @@ body {
     background-size: 110%;
 }
 
+.fa.fa-backward {
+    margin-right: 15px;
+    margin-top: 5px;
+    padding: 5px;
+    padding-right: 10px;     
+}
+
 #openbtn {   
     top: 25px;
     margin-left: 10px;
@@ -21,6 +28,11 @@ body {
     text-align: right;
     cursor: pointer;
     margin-right: 15px;
+}
+
+.fa.fa-backward {
+    margin-right: 15px;
+    color: white;
 }
 
 input {

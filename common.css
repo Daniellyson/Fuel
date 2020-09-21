@@ -18,6 +18,16 @@
     display: block;
 }
 
+
+.fa.fa-backward {
+    float: right;
+    color: rgb(148, 18, 18);
+    border-radius: 6px;
+    cursor: pointer;
+    border: 2px solid grey;
+    background-color: wheat;
+}
+
 button {
     float: left;
     color: yellowgreen;
