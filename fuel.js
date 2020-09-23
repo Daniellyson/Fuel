@@ -99,7 +99,7 @@ function getKm() {
 }
 
 function back() {
-    location.href = "daniellyson.github.io/dev";
+    location.href = "https://daniellyson.github.io/dev";
 }
 
 function openNav() {
