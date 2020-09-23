@@ -18,6 +18,10 @@
     display: block;
 }
 
+span.attention {
+    color: rgb(148, 18, 18);
+}
+
 
 .fa.fa-backward {
     float: right;
@@ -72,7 +76,8 @@ footer a {
 footer {
     opacity: 0.7;
     position: fixed;
-    bottom: 2px;;
+    height: auto;
+    bottom: 2px;
     width: auto;
     left: 1%;
     cursor: pointer;
