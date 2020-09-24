@@ -29,7 +29,9 @@ span.attention {
     border-radius: 6px;
     cursor: pointer;
     border: 2px solid grey;
-    background-color: wheat;
+    background-color: rgb(14, 61, 80);
+    width: 45px;
+    padding: 4px;
 }
 
 button {
